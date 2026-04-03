@@ -9,29 +9,40 @@
   <!-- Favicon with text symbol -->
   <link rel="icon" href="data:image/svg+xml,
     <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'>
-      <text y='0.9em' font-size='80'>⚡</text>
+      <text y='0.9em' font-size='80'>🚀</text>
     </svg>">
 </head>
-<body class="bg-gray-100 text-gray-900">
+<body class="bg-gray-50 text-gray-900 font-sans">
+
+  <!-- Navbar -->
+  <nav class="fixed w-full bg-white shadow z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-blue-600">Elon Musk</h1>
+      <div class="space-x-6">
+        <a href="#about" class="hover:text-blue-600 transition">About</a>
+        <a href="#companies" class="hover:text-blue-600 transition">Companies</a>
+        <a href="#contact" class="hover:text-blue-600 transition">Contact</a>
+      </div>
+    </div>
+  </nav>
 
   <!-- Hero Section -->
-  <section class="bg-gradient-to-r from-blue-600 to-purple-700 text-white min-h-screen flex flex-col justify-center items-center text-center p-8">
+  <section class="bg-gradient-to-r from-blue-600 to-purple-700 text-white min-h-screen flex flex-col justify-center items-center text-center px-6 pt-24">
     <img src="https://i.insider.com/63b84b16d1c5130019f95f8c?width=800&format=jpeg&auto=webp" 
          alt="Elon Musk" 
          class="w-40 h-40 rounded-full border-4 border-white shadow-lg animate-bounce">
-    <h1 class="text-5xl font-extrabold mt-6 animate-pulse">Elon Musk</h1>
-    <p class="mt-4 text-xl max-w-2xl">
+    <h2 class="text-5xl font-extrabold mt-6">Elon Musk</h2>
+    <p class="mt-4 text-lg max-w-2xl">
       Entrepreneur • Innovator • Visionary • CEO of Tesla & SpaceX
     </p>
-    <div class="mt-6 flex gap-4">
-      <a href="#about" class="bg-white text-blue-700 px-6 py-2 rounded-lg shadow hover:bg-gray-200 transition">About</a>
-      <a href="#companies" class="bg-yellow-400 text-black px-6 py-2 rounded-lg shadow hover:bg-yellow-500 transition">Companies</a>
-      <a href="#contact" class="bg-green-500 text-white px-6 py-2 rounded-lg shadow hover:bg-green-600 transition">Contact</a>
+    <div class="mt-6 flex gap-4 flex-wrap justify-center">
+      <a href="#about" class="bg-white text-blue-700 px-6 py-2 rounded-lg shadow hover:bg-gray-200 transition">Learn More</a>
+      <a href="#companies" class="bg-yellow-400 text-black px-6 py-2 rounded-lg shadow hover:bg-yellow-500 transition">Explore Companies</a>
     </div>
   </section>
 
   <!-- About Section -->
-  <section id="about" class="py-16 px-8 bg-white text-center">
+  <section id="about" class="py-16 px-6 bg-white text-center">
     <h2 class="text-4xl font-bold text-blue-600 mb-6">About Elon Musk</h2>
     <p class="max-w-3xl mx-auto text-lg leading-relaxed">
       Elon Musk is a business magnate and engineer known for leading Tesla, SpaceX, Neuralink, and The Boring Company. 
@@ -40,7 +51,7 @@
   </section>
 
   <!-- Companies Section -->
-  <section id="companies" class="py-16 px-8 bg-gray-50">
+  <section id="companies" class="py-16 px-6 bg-gray-100">
     <h2 class="text-4xl font-bold text-purple-700 text-center mb-10">Companies</h2>
     <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
       <div class="p-6 bg-white rounded-lg shadow hover:shadow-xl transform hover:scale-105 transition">
@@ -63,9 +74,9 @@
   </section>
 
   <!-- Contact Section -->
-  <section id="contact" class="py-16 px-8 bg-gradient-to-r from-gray-800 to-black text-white text-center">
+  <section id="contact" class="py-16 px-6 bg-gradient-to-r from-gray-800 to-black text-white text-center">
     <h2 class="text-4xl font-bold mb-6">Connect with Elon</h2>
-    <div class="flex justify-center gap-6">
+    <div class="flex justify-center gap-6 flex-wrap">
       <a href="https://twitter.com/elonmusk" target="_blank" class="hover:text-blue-400 transition">Twitter</a>
       <a href="https://www.instagram.com/elonmusk/" target="_blank" class="hover:text-pink-400 transition">Instagram</a>
       <a href="https://www.linkedin.com/in/elonmusk" target="_blank" class="hover:text-blue-600 transition">LinkedIn</a>
@@ -74,7 +85,7 @@
 
   <!-- Footer -->
   <footer class="bg-gray-900 text-gray-400 text-center py-6">
-    <p>&copy; 2026 Elon Musk Website</p>
+    <p>&copy; 2026 Elon Musk  Website</p>
   </footer>
 
 </body>
